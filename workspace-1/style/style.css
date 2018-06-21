@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar {
+    background-color: white;
+    border: 3px solid black;
+}
+
+.nav-logo {
+    height: 90px;
+    width: 100px;
+    margin-left: 10px;
+}
+
+.nav-title {
+    display: block;
+    text-align: center;
+}
+.nav-list {
+    float: right;
+}
+
+.nav-list li {
+    display: inline-block;
+    float: right;
+    padding: 5px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border: 5px outset black;
+    border-radius: 10px;
+    color: black;
+    background-color: #0070F7;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
